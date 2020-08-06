@@ -1,0 +1,118 @@
+body{
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+#navbar{
+    flex-direction: column;
+    /* margin: 0px; */
+}
+#navbar img{
+    height: 30px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+#navbar ul li a{
+    font-size: 16px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+#navbar .right{
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+#navbar .right input{
+    font-size:12px ;
+    border-radius: 4px;
+}
+#navbar .right button {
+    font-size:13px ;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+.sec{
+    height: 259px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+.sec::before{
+    height: 377px;
+}
+.sec h1{
+    margin: 2px 2px;
+    font-size: 20px;
+}
+.sec p{
+    font-size: 12px;
+}
+.sec button {
+    font-size: 13px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+h1{
+    color: black;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    font-size: 20px;
+}
+.sec-2{
+    height: 800px;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+.sec-2 .card{
+    border-radius: 10px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+.sec-2 .card img{
+    height: 40px;
+}
+.sec-2 h3{
+    font-size: 16px;
+}
+.sec-2 p {
+    font-size: 12px;
+    padding: 2px 2px;
+}
+.sec-2::before{
+    height: 800px;
+}
+.sec-3{
+    /* position: relative; */
+    height: 225px;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+.client img{
+    height: 40px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 8px;
+}
+.sec-3::before{
+    height: 223px;
+}
+.form{
+    margin: 2px 2px;
+}
+.form label{
+    font-size: 14px;
+}
+.form input, .form textarea{
+    font-size: 12px;
+    padding: 2px 2px;
+    border-radius: 8px;
+}
+.form button{
+    font-size: 13px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+.foot{
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+.foot h3{
+    font-size:10px ;
+}
